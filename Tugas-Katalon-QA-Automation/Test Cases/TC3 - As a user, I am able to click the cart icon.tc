@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3 - As a user, I am able to click the cart icon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d14463f9-9d6c-4cf9-9be7-53fd454d30bd</testCaseGuid>
+</TestCaseEntity>

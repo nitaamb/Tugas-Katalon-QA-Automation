@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add a single product to cart,Firefox 109.0,,,2024-03-05 23:14:35,2024-03-05 23:15:14,39.286s,PASSED
+,,,,,,,
+"Test Cases/TC1 - As a user, I am able to log in using the correct username and password",Firefox 109.0,,,2024-03-05 23:14:36,2024-03-05 23:15:02,26.014s,PASSED
+"openBrowser("""")",Firefox 109.0,,,2024-03-05 23:14:37,2024-03-05 23:14:47,9.799s,PASSED
+navigateToUrl(baseUrl),Firefox 109.0,,,2024-03-05 23:14:47,2024-03-05 23:14:57,10.276s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_username""), username)",Firefox 109.0,,,2024-03-05 23:14:57,2024-03-05 23:14:59,1.763s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_password""), password)",Firefox 109.0,,,2024-03-05 23:14:59,2024-03-05 23:15:00,1.134s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/btn_login""))",Firefox 109.0,,,2024-03-05 23:15:00,2024-03-05 23:15:01,0.926s,PASSED
+"verifyMatch(getUrl(), inventoryUrl, false)",Firefox 109.0,,,2024-03-05 23:15:01,2024-03-05 23:15:01,0.206s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Swag Labs/title_Products""))",Firefox 109.0,,,2024-03-05 23:15:01,2024-03-05 23:15:02,0.589s,PASSED
+,,,,,,,
+"Test Cases/TC2 - As a user, I am able to click Add to cart button",Firefox 109.0,,,2024-03-05 23:15:02,2024-03-05 23:15:06,4.609s,PASSED
+"click(findTestObject(""Page_Swag Labs/btn_AddToCart_SauceLabsBackpack""))",Firefox 109.0,,,2024-03-05 23:15:03,2024-03-05 23:15:03,0.726s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Swag Labs/btn_AddToCart_SauceLabsBackpack""), 0)",Firefox 109.0,,,2024-03-05 23:15:03,2024-03-05 23:15:04,1.119s,PASSED
+"verifyElementVisible(findTestObject(""Page_Swag Labs/btn_Remove_SauceLabsBackpack""))",Firefox 109.0,,,2024-03-05 23:15:04,2024-03-05 23:15:05,0.551s,PASSED
+"verifyElementClickable(findTestObject(""Page_Swag Labs/btn_Remove_SauceLabsBackpack""))",Firefox 109.0,,,2024-03-05 23:15:05,2024-03-05 23:15:06,0.536s,PASSED
+"verifyElementText(findTestObject(""Page_Swag Labs/btn_Cart""), ""1"")",Firefox 109.0,,,2024-03-05 23:15:06,2024-03-05 23:15:06,0.625s,PASSED
+,,,,,,,
+"Test Cases/TC3 - As a user, I am able to click the cart icon",Firefox 109.0,,,2024-03-05 23:15:06,2024-03-05 23:15:14,7.704s,PASSED
+"click(findTestObject(""Page_Swag Labs/btn_Cart""))",Firefox 109.0,,,2024-03-05 23:15:08,2024-03-05 23:15:12,4.825s,PASSED
+"verifyMatch(getUrl(), cartUrl, false)",Firefox 109.0,,,2024-03-05 23:15:12,2024-03-05 23:15:12,0.031s,PASSED
+"verifyElementVisible(findTestObject(""Page_Swag Labs/title_YourCart""))",Firefox 109.0,,,2024-03-05 23:15:12,2024-03-05 23:15:13,0.584s,PASSED
+"verifyElementClickable(findTestObject(""Page_Swag Labs/btn_ContinueShopping""))",Firefox 109.0,,,2024-03-05 23:15:13,2024-03-05 23:15:13,0.474s,PASSED
+"verifyElementClickable(findTestObject(""Page_Swag Labs/btn_Checkout""))",Firefox 109.0,,,2024-03-05 23:15:13,2024-03-05 23:15:14,0.465s,PASSED

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add a single product to cart" time="39.286" tests="3" failures="0" errors="0">
+   <testsuite name="Add a single product to cart" tests="3" failures="0" errors="0" time="39.286" skipped="0" timestamp="2024-03-05 23:14:35" hostname="nita.ambarwati - NB-NITAA.ag-it.com" id="Test Suites/Add a single product to cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nita.ambarwati\\Katalon Studio\\Tugas-Katalon-QA-Automation\\Reports\\20240305_231420\\Add a single product to cart\\20240305_231420"/>
+         <property name="logFiles" value="C:\\Users\\nita.ambarwati\\Katalon Studio\\Tugas-Katalon-QA-Automation\\Reports\\20240305_231420\\Add a single product to cart\\20240305_231420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nita.ambarwati - NB-NITAA.ag-it.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Firefox 109.0"/>
+         <property name="hostAddress" value="192.168.0.118"/>
+         <property name="sessionId" value="2ca07af2-0876-4758-9c3e-13d0f733afaa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1 - As a user, I am able to log in using the correct username and password" time="26.014" classname="Test Cases/TC1 - As a user, I am able to log in using the correct username and password" status="PASSED">
+         <system-out><![CDATA[2024-03-05 23:14:36 - [TEST_CASE][PASSED] - Test Cases/TC1 - As a user, I am able to log in using the correct username and password: Test Cases/TC1 - As a user, I am able to log in using the correct username and password
+
+2024-03-05 23:14:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-03-05 23:14:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-03-05 23:14:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-03-05 23:14:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-03-05 23:14:47 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-03-05 23:14:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-03-05 23:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_username"), username): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_username'
+
+2024-03-05 23:14:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_username'
+
+2024-03-05 23:14:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2024-03-05 23:15:00 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+2024-03-05 23:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_login")): Object: 'Object Repository/Page_Swag Labs/btn_login' is clicked on
+
+2024-03-05 23:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_login' is clicked on
+
+2024-03-05 23:15:01 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), inventoryUrl, false): Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+2024-03-05 23:15:01 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+2024-03-05 23:15:01 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+2024-03-05 23:15:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/title_Products")): Object 'Object Repository/Page_Swag Labs/title_Products' is visible
+
+2024-03-05 23:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/title_Products' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2 - As a user, I am able to click Add to cart button" time="4.609" classname="Test Cases/TC2 - As a user, I am able to click Add to cart button" status="PASSED">
+         <system-out><![CDATA[2024-03-05 23:15:02 - [TEST_CASE][PASSED] - Test Cases/TC2 - As a user, I am able to click Add to cart button: Test Cases/TC2 - As a user, I am able to click Add to cart button
+
+2024-03-05 23:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/btn_AddToCart_SauceLabsBackpack")): Object: 'Object Repository/Page_Swag Labs/btn_AddToCart_SauceLabsBackpack' is clicked on
+
+2024-03-05 23:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_AddToCart_SauceLabsBackpack' is clicked on
+
+2024-03-05 23:15:03 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Swag Labs/btn_AddToCart_SauceLabsBackpack"), 0): Web element with id: 'Object Repository/Page_Swag Labs/btn_AddToCart_SauceLabsBackpack' located by 'By.cssSelector: #add-to-cart-sauce-labs-backpack' is not present after '30' second(s)
+
+2024-03-05 23:15:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-05 23:15:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Swag Labs/btn_AddToCart_SauceLabsBackpack' located by 'By.cssSelector: #add-to-cart-sauce-labs-backpack' is not present after '30' second(s)
+
+2024-03-05 23:15:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Swag Labs/btn_Remove_SauceLabsBackpack")): Object 'Object Repository/Page_Swag Labs/btn_Remove_SauceLabsBackpack' is visible
+
+2024-03-05 23:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/btn_Remove_SauceLabsBackpack' is visible
+
+2024-03-05 23:15:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Swag Labs/btn_Remove_SauceLabsBackpack")): Object 'Object Repository/Page_Swag Labs/btn_Remove_SauceLabsBackpack' is clickable
+
+2024-03-05 23:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/btn_Remove_SauceLabsBackpack' is clickable
+
+2024-03-05 23:15:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Swag Labs/btn_Cart"), "1"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/btn_Cart' are matched.
+
+2024-03-05 23:15:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/btn_Cart' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3 - As a user, I am able to click the cart icon" time="7.704" classname="Test Cases/TC3 - As a user, I am able to click the cart icon" status="PASSED">
+         <system-out><![CDATA[2024-03-05 23:15:06 - [TEST_CASE][PASSED] - Test Cases/TC3 - As a user, I am able to click the cart icon: Test Cases/TC3 - As a user, I am able to click the cart icon
+
+2024-03-05 23:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/btn_Cart")): Object: 'Object Repository/Page_Swag Labs/btn_Cart' is clicked on
+
+2024-03-05 23:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Cart' is clicked on
+
+2024-03-05 23:15:12 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), cartUrl, false): Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+2024-03-05 23:15:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+2024-03-05 23:15:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+2024-03-05 23:15:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Swag Labs/title_YourCart")): Object 'Object Repository/Page_Swag Labs/title_YourCart' is visible
+
+2024-03-05 23:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/title_YourCart' is visible
+
+2024-03-05 23:15:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Swag Labs/btn_ContinueShopping")): Object 'Object Repository/Page_Swag Labs/btn_ContinueShopping' is clickable
+
+2024-03-05 23:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/btn_ContinueShopping' is clickable
+
+2024-03-05 23:15:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Swag Labs/btn_Checkout")): Object 'Object Repository/Page_Swag Labs/btn_Checkout' is clickable
+
+2024-03-05 23:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/btn_Checkout' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-05 23:14:35 - [TEST_SUITE][PASSED] - Add a single product to cart: Test Cases/TC3 - As a user, I am able to click the cart icon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
